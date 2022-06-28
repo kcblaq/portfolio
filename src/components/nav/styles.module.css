@@ -16,6 +16,8 @@
 }
 .item{
    font-weight: 500;
+   padding-bottom: 5px;
+   transition: 0.2s all ease-in;
 }
 .nonActive {
 	color: white;
