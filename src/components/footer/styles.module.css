@@ -1,0 +1,36 @@
+.container{
+    background-color: #0B0C10;
+    height: 120px;
+    display:flex;
+    color: #FFF;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    /* width: 100%; */
+    z-index: 999;
+}
+
+.buttom__nav{
+    display:flex;
+    gap:3rem;
+}
+.buttom__nav a{
+    color:#FCFBFB;
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .buttom__nav{
+        gap: 10px;
+    }
+}

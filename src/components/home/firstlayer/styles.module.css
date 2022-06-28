@@ -1,0 +1,56 @@
+.main {
+	background-color: #0b0c10;
+	min-height: 500px;
+	color: #fcfbfb;
+	padding: 100px 60px;
+	display: flex;
+	background-image: url('../../../KayCee.svg');
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: 90% 25%;
+	justify-content: space-between;
+}
+.intro {
+	display: flex;
+	flex-direction: column;
+	gap: 10%;
+}
+.handles {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.cat {
+	display: flex;
+	gap: 10%;
+}
+.handles a {
+	color: #fff;
+}
+.mua {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.main {
+		background-image: none;
+		padding: 80px 20px 0px 20px;
+        min-height: 300px;
+	}
+	.intro {
+		gap: 5%;
+	}
+	.mua {
+		display: flex;
+		background-color: #0b0c10;
+		color: #fcfbfb;
+		justify-content: center;
+        min-height: 200px;
+        max-width:100%;
+        background-image: url('../../../KayCee.svg');
+        background-repeat: no-repeat;
+	    background-size: contain; 
+        background-position: 50% 50%;
+        
+	}
+}
