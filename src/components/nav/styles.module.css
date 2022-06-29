@@ -10,12 +10,15 @@
 	left: 0;
 	text-align: center;
 	position: fixed;
+	z-index: 999;
 }
 .micon {
 	display: none;
 }
 .item{
    font-weight: 500;
+   padding-bottom: 5px;
+   transition: 0.2s all ease-in;
 }
 .nonActive {
 	color: white;
