@@ -2,12 +2,13 @@
 	background-color: #0b0c10;
 	min-height: 500px;
 	color: #fcfbfb;
-	padding: 100px 60px;
+	/* padding: 100px 60px; */
+	padding: 120px 60px 0px 40px; 
 	display: flex;
 	background-image: url('../../../KayCee.svg');
 	background-repeat: no-repeat;
 	background-size: auto;
-	background-position: 90% 25%;
+	background-position: 90% 55%;
 	justify-content: space-between;
 }
 .intro {
@@ -35,7 +36,7 @@
 	.main {
 		background-image: none;
 		padding: 80px 20px 0px 20px;
-        min-height: 300px;
+        min-height: 230px;
 	}
 	.intro {
 		gap: 5%;
