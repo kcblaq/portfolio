@@ -21,6 +21,18 @@
     justify-content: start;
     /* width: 100%; */
 }
+.myBox{
+   color: #000;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.myBox img{
+   height: 5%;
+   width: 20%; 
+}
 .item__two{
     min-height: 400px;
     background-color: #1F2833;
@@ -45,7 +57,7 @@
     display: flex;
     color: #FFF;
     padding-top: 4%;
-    min-height: 800px;
+    min-height: 900px;
     flex-direction: column;
     row-gap: 40px;
     
@@ -89,4 +101,11 @@
         padding-bottom: 30px;
     }
     
+    
+}
+@media screen and (max-width:600px){
+    .myBox img{
+        height: 3%;
+        width: 15%; 
+     }
 }
