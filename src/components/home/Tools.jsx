@@ -21,10 +21,23 @@ import bootstrapicon from "../../assets/bootstrapicon.svg"
 import styledcompicon from "../../assets/styledcompicon.svg"
 import antdesignlogo from "../../assets/antdesignlogo.svg"
 import muiicon from "../../assets/muiicon.svg"
+import resticon from "../../assets/restapiicon.svg"
 
 function Tools() {
-  const myicons = [reacticon, vueicon,tsicon, nexticon,html, htmlicon,jsicon]
-  const tech = "Front-end technologies"
+  const myicons = [reacticon, vueicon,html, htmlicon]
+  const backend = [nexticon,expressicon,nodeicon,tsicon,jsicon]
+  const backendTitle = "Back-end Technologies"
+  const tech = "Front-end Technologies"
+  const databaseicons = [postgressicon,mongodbicon]
+  const databaseTitle = "Database Technologies"
+  const apiicons = [grapgqlicon, resticon]
+  const apiTitle = "API"
+  const versionicon = [githubicon]
+  const versionTitle = "Version Control"
+  const uilibicons = [antdesignlogo,uikiticon,bootstrapicon,styledcompicon,muiicon]
+  const uiTitle = "UI Library"
+
+  
   return (
     <div className={styles.tool__container}>
        <div className={styles.expertise}>
@@ -34,13 +47,11 @@ function Tools() {
        </div>
         <div className={styles.cards}>
           <Cardie tech={tech} icons={myicons} />
-          <Cardie tech={tech} icons={myicons} />
-          <Cardie tech={tech} icons={myicons} />
-          <Cardie tech={tech} icons={myicons} />
-          <Cardie tech={tech} icons={myicons} />
-          <Cardie tech={tech} icons={myicons} />
-          <Cardie tech={tech} icons={myicons} />
-          <Cardie tech={tech} icons={myicons} />
+          <Cardie tech={backendTitle} icons={backend} />
+          <Cardie tech={databaseTitle} icons={databaseicons} />
+          <Cardie tech={apiTitle} icons={apiicons} />
+          <Cardie tech={versionTitle} icons={versionicon} />
+          <Cardie tech={uiTitle} icons={uilibicons} />
 
         </div>
         <Box sx={{display:"flex",flexDirection:{xs:'column',gap:'10px', sm:'column',md:'row', lg:'row'} , justifyContent:"space-around", alignItems:"center", mt:'5%'}}>
