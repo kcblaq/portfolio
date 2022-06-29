@@ -24,8 +24,8 @@ function FirstLayer() {
        I specialize in building website applications and everything related to it.
        </Typography>
        <div className={styles.cat}>
-        <Button size='small' variant='contained'> Get in touch</Button>
-        <Button size='small' variant='outlined'> Portfolio</Button>
+        <Button sx={{textTransform:'capitalize'}} variant='contained'> Get in touch</Button>
+        <Button sx={{textTransform:'capitalize'}} variant='outlined'> Portfolio</Button>
        </div>
       </div>
       <div className={styles.handles}>
