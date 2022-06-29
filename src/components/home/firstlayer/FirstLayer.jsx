@@ -3,7 +3,7 @@ import styles from "./styles.module.css"
 import { GitHub, LinkedIn, Twitter, WhatsApp } from '@mui/icons-material';
 import {Link, Typography, Button} from '@mui/material/';
 import Pix from "../../../../src/KayCee.svg"
-
+import {Link as RouterLink} from "react-router-dom"
 
 function FirstLayer() {
   return (
@@ -24,8 +24,8 @@ function FirstLayer() {
        I specialize in building website applications and everything related to it.
        </Typography>
        <div className={styles.cat}>
-        <Button sx={{textTransform:'capitalize'}} variant='contained'> Get in touch</Button>
-        <Button sx={{textTransform:'capitalize'}} variant='outlined'> Portfolio</Button>
+        <Button sx={{textTransform:'capitalize'}} variant='contained' component={RouterLink} to='/contact'> Get in touch</Button>
+        <Button sx={{textTransform:'capitalize'}} variant='outlined' component={RouterLink} to="/works"> Portfolio</Button>
        </div>
       </div>
       <div className={styles.handles}>

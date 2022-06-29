@@ -24,7 +24,7 @@ import muiicon from "../../assets/muiicon.svg"
 import resticon from "../../assets/restapiicon.svg"
 
 function Tools() {
-  const myicons = [reacticon, vueicon,tsicon, nexticon,html, htmlicon,jsicon]
+  const myicons = [reacticon, vueicon,html, htmlicon]
   const backend = [nexticon,expressicon,nodeicon,tsicon,jsicon]
   const backendTitle = "Back-end Technologies"
   const tech = "Front-end Technologies"

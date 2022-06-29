@@ -30,8 +30,8 @@
    gap: 10px;
 }
 .myBox img{
-   height: 5%;
-   width: 20%; 
+   height: 10%;
+   width: 30%; 
 }
 .item__two{
     min-height: 400px;
@@ -76,9 +76,20 @@
     overflow-x: scroll;
     width: 100%;
     padding: 0px -40px;
+    animation: scroll-left 20s linear infinite;
 
 }
-
+@keyframes scroll-left {
+    /* 0%{
+        transform: translateX(0%)
+    }
+    50%{
+        transform:translateX(100%)
+    }
+    100%{
+        transform: translate(0%)
+    } */
+}
 
 
 @media  (max-width: 769px){
